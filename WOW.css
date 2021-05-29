@@ -13,8 +13,9 @@
   .intro{
     font-variant: inherit;
     font-weight: normal;
-    display: inline;
+    display: inline block;
     font-family: american typewriter;
+    background-color: yello;
 
 }
   .intro{
