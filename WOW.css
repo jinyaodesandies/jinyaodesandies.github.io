@@ -1,38 +1,56 @@
-<style media="screen">
+body{
+  background-color: #cccccc;
+  font: american typewriter;
+  margin: 0;
+}
+
+#main-body {
+  width: 100%;
+  margin: auto;
+}
+
+#topbar {
+  height: 100px;
+  background-color: white;
+
+}
+
+#content {
+  background-image: url("AHHHH.png");
+  min-height: 800px;
+  width: auto;
+}
   p {
     font-size: 15px;
   }
-  .Imomamadada{
-    font-stretch: condensed;
-    font-kerning: auto;
-  }
+.intro{
+  border: 2px solid;}
 
-  .intro{
-    font-variant: inherit;
-    font-weight: normal;
-    display: inline block;
-    font-family: american typewriter;
-    background-color: yello;
 
-}
-  .intro{
-    width: 100px;
-    height: 500px;
-  }
-  a{
-    color: red
-  }
   a:hover{
-    color: blue
+    color: white;
+    background-color: black;
   }
   ul{
-    display: inline block;
+    border: 2px  blue;
+    display: inline-block;
   }
   .other-links{
-    display: inline block;
+    border: 2px solid green;
+    width: 400px;
+    height: 18px;
   }
-  *{
-    background-image: url("AHHHH.png");
-    background-color: #cccccc;
+
+  h1#AHHH{
+    border: 2px solid;
+    width: 500px;
+    height: 50px;
+    display: inline-block;
   }
-</style>
+  a{
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 50px 20px;
+    padding: 10px 15px;
+    color: black;
+  }
