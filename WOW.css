@@ -6,10 +6,7 @@
     font-stretch: condensed;
     font-kerning: auto;
   }
-  *:img{
-    height: 100px;
-    width: 400px;
-  }
+
   .intro{
     font-variant: inherit;
     font-weight: normal;
@@ -19,8 +16,8 @@
 
 }
   .intro{
-    width: 20000px;
-    height: 7000px;
+    width: 100px;
+    height: 500px;
   }
   a{
     color: red
@@ -29,10 +26,10 @@
     color: blue
   }
   ul{
-    display: inline;
+    display: inline block;
   }
   .other-links{
-    display: inline;
+    display: inline block;
   }
   *{
     background-image: url("AHHHH.png");
