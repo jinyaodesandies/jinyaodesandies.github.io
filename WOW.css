@@ -76,6 +76,52 @@ body{
 h1#title{
   font-size: 60px;
 }
+#DWD{
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  font-size: 70px;
+}
+#MP{
+  position: absolute;
+  top: 325px;
+  left: 50px;
+}
+#RCG{
+  position: absolute;
+  top: 350px;
+  left: 30px;
+  font-size: 70px;
+}
+#LHTC{
+  position: absolute;
+  top: 150px;
+  left: 700px;
+  font-size: 73px;
+}
+#FJ{
+  position: absolute;
+  top: 530px;
+  left: 580px;
+  font-size: 73px;
+  font-size: 25px;
+}
+#GS{
+  position: absolute;
+  top: 300px;
+  left: 1000px;
+  font-size: 73px;
+}
+#HJ{
+  position: absolute;
+  top: 650px;
+  left: 250px;
+  font-size: 120px;
+}
+#ten{
+  font-size: 100px;
+
+}
 *{
 
 }
