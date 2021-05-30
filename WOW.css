@@ -1,5 +1,5 @@
 body{
-  background-color: #cccccc;
+  background-color: white;
   font: american typewriter;
   margin: 0;
 }
@@ -9,24 +9,26 @@ body{
   margin: auto;
 }
 
-#topbar {
+.topbar {
   height: 100px;
   background-color: white;
-
+  border: solid;
+  width:85%;
+  height:70px;
+  margin: 5px 7%;
 }
-
 #content {
   background-image: url("AHHHH.png");
   min-height: 800px;
   width: auto;
+  margin: 0;
 }
   p {
-    font-size: 15px;
+    font-size: 25px;
   }
 .intro{
-  border: 2px solid;}
-
-
+  border: 2px solid;
+}
   a:hover{
     color: white;
     background-color: black;
@@ -40,12 +42,15 @@ body{
     width: 400px;
     height: 18px;
   }
-
-  h1#AHHH{
-    border: 2px solid;
+  h1.AHHH{
     width: 500px;
     height: 50px;
     display: inline-block;
+    margin: 10px;
+  }
+  h1#content{
+    margin: 50;
+    border: 1px solid;
   }
   a{
     border: 2px solid;
@@ -54,3 +59,23 @@ body{
     padding: 10px 15px;
     color: black;
   }
+.Us{
+  margin-left: 300px;
+}
+#title{
+  margin-left: 270px;
+}
+#diviv{
+  margin-top: 100px;
+  border: 2px solid black;
+  border-radius: 900px;
+}
+.color{
+  color: grey;
+}
+h1#title{
+  font-size: 60px;
+}
+*{
+
+}
